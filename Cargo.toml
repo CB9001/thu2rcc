@@ -1,0 +1,27 @@
+[package]
+name = "thu2rcc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+colored = "2.0.0"
+crc32fast = "1.3.2"
+crc_all = "0.2.2"
+dict = "0.1.5"
+libc = "0.2.139"
+rayon = "1.6.1"
+
+[dev-dependencies]
+criterion = "0.4.0"
+
+[profile.dev]
+overflow-checks = false
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+
+[[bench]]
+name = "hashing_speed"
+harness = false
