@@ -10,7 +10,7 @@ use rayon::prelude::*;
 
 /// Calculates the hashes for a given cheat string
 /// 
-/// For example, `calc_hash("birdman")` will return ``, `0x0d442a0b` (as a u32)
+/// For example, `calc_hash("birdman")` will return (`0x07d8f451`, `0x0d442a0b`) (as u32s)
 pub fn calc_hash(cheat_string: String) -> (u32, u32) {
     let mut obfuscated_cheat_string: [u8; 20] = [b'1', b'2', b'3', b'4', b'5', b'6', b'7', b'8', b'9', b'0', b'1', b'2', b'3', b'4', b'5', b'6', b'7', b'8', b'9', b'0'];
     let mut cheat_string_crc: i32 = !crc32fast::hash(cheat_string.as_bytes()) as i32;
