@@ -14,39 +14,39 @@ To crack these cheat code hashes, I re-implemented the cheat hashing algorithm i
 
 ## Findings (So Far)
 
-Using this utility, I've managed to discover a number of previously undocumented cheat codes for various versions of Tony Hawk's Underground 2. Any cheats with a star were previously undocumented (as far as I can tell).
+Using this utility, I've managed to discover a number of previously undocumented cheat codes for various versions of Tony Hawk's Underground 2. Any cheats bolded & italicized were previously undocumented (as far as I can tell).
 
-| Cheat Identifier            | PS2             | PSP              | Xbox            | Gamecube        |
-|-----------------------------|-----------------|------------------|-----------------|-----------------|
-| cheat_unlock_always_special | likepaulie      |                  | likepaulie      | likepaulie      |
-| cheat_unlock_perfect_rail   |                 | tightrope        |                 |                 |
-| cheat_unlock_perfect_skitch |                 |                  |                 |                 |
-| cheat_unlock_perfect_manual |                 |                  |                 |                 |
-| cheat_unlock_moon_grav      |                 |                  |                 |                 |
-| cheat_unlock_pedgroup1      |                 |                  |                 |                 |
-| cheat_unlock_pedgroup2      |                 |                  |                 |                 |
-| cheat_unlock_pedgroup3      | **love2hate** * | **hate2love** *  | **love2hate** * | **love2hate** * |
-| cheat_unlock_pedgroup4      | **fruitboot** * | **gumdrops** *   | **fruitboot** * | **fruitboot** * |
-| cheat_unlock_pedgroup5      |                 |                  |                 |                 |
-| cheat_unlock_pedgroup6      |                 |                  |                 |                 |
-| cheat_unlock_pedgroup7      |                 | **evenmore** *   |                 |                 |
-| cheat_unlock_pedgroup8      |                 |                  |                 |                 |
-| cheat_give_shrek            | **greenguy** *  | **nevertold** *  |                 |                 |
-| cheat_give_soldier          |                 | **dogtags** *    | **lockstock** * | **foxhole *     |
-| cheat_give_phil             | aprilsman       | **tirejack** *   | notvito         | xxlarge         |
-| cheat_give_hand             | **5fingers** *  | **hangloose** *  |                 |                 |
-| cheat_give_paulie           |                 | **spittle** *    | 4wheeler        |                 |
-| cheat_give_nigel            | sellout         | **tigerthong** * | skullet         |                 |
-| cheat_give_steveo           |                 |                  |                 | **wildman** *   |
-| cheat_give_jesse            |                 |                  | **payups** *    | **outlaw** *    |
-| cheat_give_thps             | **original1** * | birdman          | **firstborn** * | **retro1** *    |
-| cheat_give_natas            | oldskool        |                  | bedizzy         | unscrewed       |
-| cheat_unlockmovies          | boxoffice       | **playbill** *   |                 | sikflick        |
-| cheat_reallygivelevels      | d3struct        |                  |                 | urown3d         |
-| cheat_give_story_skaters    | costars!        |                  |                 | wakpak          |
-| unlock_all_cheats           |                 |                  |                 |                 |
-| cheat_select_shift          |                 |                  |                 |                 |
-| cheat_sce_patchtest         |                 |                  | N/A             | N/A             |
+| Cheat                            | PS2             | PSP              | Xbox            | Gamecube        |
+|----------------------------------|-----------------|------------------|-----------------|-----------------|
+| Always Special                   | likepaulie      |                  | likepaulie      | likepaulie      |
+| Perfect Rail                     |                 | tightrope        |                 |                 |
+| Perfect Skitch                   |                 |                  |                 |                 |
+| Perfect Manual                   |                 |                  |                 |                 |
+| Moon Gravity                     |                 |                  |                 |                 |
+| Unlock Pedestrian Group A        |                 |                  |                 |                 |
+| Unlock Pedestrian Group B        |                 |                  |                 |                 |
+| Unlock Pedestrian Group C        | ***love2hate*** | ***hate2love***  | ***love2hate*** | ***love2hate*** |
+| Unlock Pedestrian Group D        | ***fruitboot*** | ***gumdrops***   | ***fruitboot*** | ***fruitboot*** |
+| Unlock Pedestrian Group E        |                 |                  |                 |                 |
+| Unlock Pedestrian Group F        |                 |                  |                 |                 |
+| Unlock Pedestrian Group G        |                 | ***evenmore***   |                 |                 |
+| Unlock Pedestrian Group H        |                 |                  |                 |                 |
+| Unlock Shrek                     | ***greenguy***  | ***nevertold***  |                 |                 |
+| Unlock C.O.D. Soldier            |                 | ***dogtags***    | ***lockstock*** | ***foxhole***   |
+| Unlock Phil Margera              | aprilsman       | ***tirejack***   | notvito         | xxlarge         |
+| Unlock The Hand                  | ***5fingers***  | ***hangloose***  |                 |                 |
+| Unlock Paulie Ryan               |                 | ***spittle***    | 4wheeler        |                 |
+| Unlock Nigel Beaverhausen        | sellout         | ***tigerthong*** | skullet         |                 |
+| Unlock Steve-O                   |                 |                  |                 | ***wildman***   |
+| Unlock Jesse James               |                 |                  | ***payups***    | ***outlaw***    |
+| Unlock THPS1 Tony Hawk           | ***original1*** | birdman          | ***firstborn*** | ***retro1***    |
+| Unlock Natas Kaupas              | oldskool        |                  | bedizzy         | unscrewed       |
+| Unlock all Movies                | boxoffice       | ***playbill***   |                 | sikflick        |
+| Unlock all Levels                | d3struct        |                  |                 | urown3d         |
+| Unlock all Story Mode Characters | costars!        |                  |                 | wakpak          |
+| Unlock all Cheat Codes           |                 |                  |                 |                 |
+| Select Shift (Unknown Effect)    |                 |                  |                 |                 |
+| SCE Patchtest (Unknown Effect)   |                 |                  | N/A             | N/A             |
 
 ## Building
 
