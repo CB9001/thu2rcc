@@ -37,7 +37,7 @@ Using this utility, I've managed to discover a number of previously undocumented
 | Unlock The Hand                  | ***5fingers***  | ***hangloose***  |                  | ***5knuckles*** |
 | Unlock Paulie Ryan               |                 | ***spittle***    | 4wheeler         |                 |
 | Unlock Nigel Beaverhausen        | sellout         | ***tigerthong*** | skullet          |                 |
-| Unlock Steve-O                   |                 |                  | ***staplegun***  | ***wildman***   |
+| Unlock Steve-O                   |                 | ***jackazz***    | ***staplegun***  | ***wildman***   |
 | Unlock Jesse James               |                 |                  | ***payups***     | ***outlaw***    |
 | Unlock THPS1 Tony Hawk           | ***original1*** | birdman          | ***firstborn***  | ***retro1***    |
 | Unlock Natas Kaupas              | oldskool        |                  | bedizzy          | unscrewed       |
