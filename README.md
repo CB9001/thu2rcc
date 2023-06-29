@@ -34,7 +34,7 @@ Using this utility, I've managed to discover a number of previously undocumented
 | Unlock Shrek                     | ***greenguy***  | ***nevertold***  | ***farfaraway*** |                 |
 | Unlock C.O.D. Soldier            | ***2infinity*** | ***dogtags***    | ***lockstock***  | ***foxhole***   |
 | Unlock Phil Margera              | aprilsman       | ***tirejack***   | notvito          | xxlarge         |
-| Unlock The Hand                  | ***5fingers***  | ***hangloose***  |                  | ***5knuckles*** |
+| Unlock The Hand                  | ***5fingers***  | ***hangloose***  | ***dabird***     | ***5knuckles*** |
 | Unlock Paulie Ryan               |                 | ***spittle***    | 4wheeler         |                 |
 | Unlock Nigel Beaverhausen        | sellout         | ***tigerthong*** | skullet          |                 |
 | Unlock Steve-O                   |                 | ***jackazz***    | ***staplegun***  | ***wildman***   |
