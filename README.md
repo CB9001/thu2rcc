@@ -16,6 +16,8 @@ To crack these cheat code hashes, I re-implemented the cheat hashing algorithm i
 
 Using this utility, I've managed to discover a number of previously undocumented cheat codes for various versions of Tony Hawk's Underground 2. Any cheats bolded & italicized were previously undocumented (as far as I can tell).
 
+A very special thanks to **[naomshi](https://github.com/naomshi)** and **[moddedBear](https://github.com/moddedBear)** for finding additional codes which have been added to this list 😊
+
 | Cheat                            | PS2             | PSP              | Xbox             | Gamecube        |
 |----------------------------------|-----------------|------------------|------------------|-----------------|
 | Always Special                   | likepaulie      |                  | likepaulie       | likepaulie      |
