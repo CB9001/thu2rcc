@@ -42,7 +42,7 @@ Using this utility, I've managed to discover a number of previously undocumented
 | Unlock THPS1 Tony Hawk           | ***original1*** | birdman          | ***firstborn***  | ***retro1***    |
 | Unlock Natas Kaupas              | oldskool        |                  | bedizzy          | unscrewed       |
 | Unlock all Movies                | boxoffice       | ***playbill***   |                  | sikflick        |
-| Unlock all Levels                | d3struct        |                  |                  | urown3d         |
+| Unlock all Levels                | d3struct        | ***w0rldt0ur***  |                  | urown3d         |
 | Unlock all Story Mode Characters | costars!        |                  |                  | wakpak          |
 | Unlock all Cheat Codes           |                 |                  |                  |                 |
 | Select Shift (Unknown Effect)    |                 |                  |                  |                 |
