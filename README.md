@@ -38,14 +38,14 @@ A very special thanks to **[naomshi](https://github.com/naomshi)** and **[modded
 | Unlock Phil Margera              | aprilsman       | ***tirejack***   | notvito          | xxlarge         |
 | Unlock The Hand                  | ***5fingers***  | ***hangloose***  | ***dabird***     | ***5knuckles*** |
 | Unlock Paulie Ryan               |                 | ***spittle***    | 4wheeler         |                 |
-| Unlock Nigel Beaverhausen        | sellout         | ***tigerthong*** | skullet          |                 |
+| Unlock Nigel Beaverhausen        | sellout         | ***tigerthong*** | skullet          | ***britteeth*** |
 | Unlock Steve-O                   |                 | ***jackazz***    | ***staplegun***  | ***wildman***   |
 | Unlock Jesse James               |                 |                  | ***payups***     | ***outlaw***    |
 | Unlock THPS1 Tony Hawk           | ***original1*** | birdman          | ***firstborn***  | ***retro1***    |
 | Unlock Natas Kaupas              | oldskool        |                  | bedizzy          | unscrewed       |
 | Unlock all Movies                | boxoffice       | ***playbill***   |                  | sikflick        |
 | Unlock all Levels                | d3struct        | ***w0rldt0ur***  |                  | urown3d         |
-| Unlock all Story Mode Characters | costars!        |                  |                  | wakpak          |
+| Unlock all Story Mode Characters | costars!        |                  | ***xtrahelp***   | wakpak          |
 | Unlock all Cheat Codes           |                 |                  |                  |                 |
 | Select Shift (Unknown Effect)    |                 |                  |                  |                 |
 | SCE Patchtest (Unknown Effect)   |                 |                  | N/A              | N/A             |
@@ -59,7 +59,7 @@ Build using `cargo build -r`. The resulting executable will be placed within `ta
 Run on the command line, passing two mandatory arguments for the list of cheat hashes and the wordlist to use like so: `thu2rcc <hash_list.txt> <wordlist.txt>`.
 
 * **Hash List**: Each line within your hash list should should represent a c1, c2 hash pair in *EXACTLY* `0x00c16f4b,0xaa6fae66` format (note the lowercase hex digits and the consistent 4-byte formatting). A list of cheat hashes taken from the PSP copy of the game is provided within [`data/cheat_hash_list.txt`](data/cheat_hash_list.txt). You can determine what cheat each hash corresponds to by referencing [`data/annotated_cheat_hashes.txt`](data/annotated_cheat_hashes.txt).
-* **Wordlist**: Each line within your word list should be a candidate cheat code you'd like to check against the list of known hashes. A list of known cheat codes is provided within [`data/known_cheats.txt`](data/known_cheats.txt). Worth noting that all cheat codes must be >=  6 characters long, so might be worth removing any candidate cheats shorter than this before running the program to avoid checking for impossible cheats.
+* **Wordlist**: Each line within your word list should be a candidate cheat code you'd like to check against the list of known hashes. A list of known cheat codes is provided within [`data/known_cheats.txt`](data/known_cheats.txt). Worth noting that all cheat codes must be >= 6 characters long, so might be worth removing any candidate cheats shorter than this before running the program to avoid checking for impossible cheats.
 
 ### Sample Execution
 
