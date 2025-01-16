@@ -37,7 +37,7 @@ A very special thanks to **[naomshi](https://github.com/naomshi)** and **[modded
 | Unlock C.O.D. Soldier            | ***2infinity*** | ***dogtags***    | ***lockstock***  | ***foxhole***   |
 | Unlock Phil Margera              | aprilsman       | ***tirejack***   | notvito          | xxlarge         |
 | Unlock The Hand                  | ***5fingers***  | ***hangloose***  | ***dabird***     | ***5knuckles*** |
-| Unlock Paulie Ryan               |                 | ***spittle***    | 4wheeler         |                 |
+| Unlock Paulie Ryan               |                 | ***spittle***    | 4wheeler         | ***whoopin***   |
 | Unlock Nigel Beaverhausen        | sellout         | ***tigerthong*** | skullet          | ***britteeth*** |
 | Unlock Steve-O                   |                 | ***jackazz***    | ***staplegun***  | ***wildman***   |
 | Unlock Jesse James               |                 |                  | ***payups***     | ***outlaw***    |
