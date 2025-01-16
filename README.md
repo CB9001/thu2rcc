@@ -33,7 +33,7 @@ A very special thanks to **[naomshi](https://github.com/naomshi)** and **[modded
 | Unlock Pedestrian Group F        |                 | ***bratpak***    |                  |                 |
 | Unlock Pedestrian Group G        |                 | ***evenmore***   |                  |                 |
 | Unlock Pedestrian Group H        |                 |                  |                  |                 |
-| Unlock Shrek                     | ***greenguy***  | ***nevertold***  | ***farfaraway*** |                 |
+| Unlock Shrek                     | ***greenguy***  | ***nevertold***  | ***farfaraway*** | ***greenguy***  |
 | Unlock C.O.D. Soldier            | ***2infinity*** | ***dogtags***    | ***lockstock***  | ***foxhole***   |
 | Unlock Phil Margera              | aprilsman       | ***tirejack***   | notvito          | xxlarge         |
 | Unlock The Hand                  | ***5fingers***  | ***hangloose***  | ***dabird***     | ***5knuckles*** |
