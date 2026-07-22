@@ -1,6 +1,6 @@
 # Tony Hawk's Underground 2 Cheat Cracker
 
-A simple utility for cracking cheat codes for Tony Hawk's Underground 2, written in Rust.
+A GPU-accelerated utility for cracking cheat codes for Tony Hawk's Underground 2, written in C++ and CUDA.
 
 ## Background
 
@@ -10,7 +10,11 @@ Digging deeper, I was able to find a list of all available cheat "hashes" specif
 
 In addition to the PSP cheat hashes, this script also contained a table of hashes for the other versions of the game (PS2, Xbox, and GameCube). I noticed that the number of cheats within these tables was much larger than the number of documented cheat codes for any of the versions of the game, and was naturally curious what these undocumented cheat codes could be. So, I made this utility to attempt to uncover the rest!
 
-To crack these cheat code hashes, I re-implemented the cheat hashing algorithm in Rust (I first wrote an implementation in Python, but it proved to be waaaay too slow to make it practical for cracking purposes).
+To crack these cheat code hashes, the project has evolved through three iterations:
+
+1. **Python**: The initial implementation served as a proof of concept, but pure Python was far too slow to make large-scale dictionary cracking practical due to performing 100,000 CRC32 iterations per candidate word.
+2. **Rust (Multi-threaded CPU)**: Re-implemented in Rust using Rayon for multi-core CPU parallelism, drastically improving performance over Python and enabling initial dictionary attacks.
+3. **CUDA C++ (GPU Acceleration)**: Ported to CUDA C++ to run across thousands of GPU cores in parallel. This CUDA version provides **dramatic, orders-of-magnitude speedups** over both the Python and multi-threaded Rust CPU versions, reducing crack times for thousands of candidates down to sub-second durations.
 
 ## Findings (So Far)
 
@@ -52,35 +56,60 @@ A very special thanks to **[naomshi](https://github.com/naomshi)**, **[moddedBea
 | Select Shift (Unknown Effect)    |                  |                  |                  |                 |
 | SCE Patchtest (Unknown Effect)   |                  |                  | N/A              | N/A             |
 
+## Prerequisites
+
+* **NVIDIA GPU** with CUDA support
+* **NVIDIA CUDA Toolkit** (includes `nvcc`)
+* **Host C++ Compiler** (Microsoft Visual Studio MSVC `cl.exe` on Windows, or `g++` on Linux)
+
 ## Building
 
-Build using `cargo build -r`. The resulting executable will be placed within `target/release`.
+### Option 1: Using `nvcc` directly
+
+On Windows (using PowerShell or Command Prompt):
+```cmd
+build.bat
+```
+or manually with `nvcc`:
+```powershell
+$env:Path = 'C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\Hostx64\x64;' + $env:Path
+nvcc -O3 src/cheat_cracker.cu -o thu2rcc.exe
+```
+
+On Linux:
+```bash
+nvcc -O3 src/cheat_cracker.cu -o thu2rcc
+```
+
+### Option 2: Using CMake
+
+```bash
+mkdir build
+cd build
+cmake ..
+cmake --build . --config Release
+```
 
 ## Running
 
 Run on the command line, passing two mandatory arguments for the list of cheat hashes and the wordlist to use like so: `thu2rcc <hash_list.txt> <wordlist.txt>`.
 
-* **Hash List**: Each line within your hash list should should represent a c1, c2 hash pair in *EXACTLY* `0x00c16f4b,0xaa6fae66` format (note the lowercase hex digits and the consistent 4-byte formatting). A list of cheat hashes taken from the PSP copy of the game is provided within [`data/cheat_hash_list.txt`](data/cheat_hash_list.txt). You can determine what cheat each hash corresponds to by referencing [`data/annotated_cheat_hashes.txt`](data/annotated_cheat_hashes.txt).
-* **Wordlist**: Each line within your word list should be a candidate cheat code you'd like to check against the list of known hashes. A list of known cheat codes is provided within [`data/known_cheats.txt`](data/known_cheats.txt). Worth noting that all cheat codes must be >= 6 characters long, so might be worth removing any candidate cheats shorter than this before running the program to avoid checking for impossible cheats.
+* **Hash List**: Each line within your hash list should represent a c1, c2 hash pair in *EXACTLY* `0x00c16f4b,0xaa6fae66` format (note the lowercase hex digits and consistent 8-character hex formatting). A list of cheat hashes taken from the PSP copy of the game is provided within [`data/cheat_hash_list.txt`](data/cheat_hash_list.txt). You can determine what cheat each hash corresponds to by referencing [`data/annotated_cheat_hashes.txt`](data/annotated_cheat_hashes.txt).
+* **Wordlist**: Each line within your word list should be a candidate cheat code you'd like to check against the list of known hashes. A list of known cheat codes is provided within [`data/known_cheats.txt`](data/known_cheats.txt). Worth noting that all cheat codes must be >= 6 characters long, so it is recommended to remove candidate cheats shorter than 6 characters to avoid checking impossible cheats.
 
 ### Sample Execution
 
 ```console
-> thu2rcc.exe data\cheat_hash_list.txt data\some_wordlist.txt
-Cheat List: data\some_wordlist.txt
-Hash List: data\cheat_hash_list.txt
-Starting to crack using 4 cores
-Found a cheat! birdman (0x07d8f451,0x0d442a0b)
-Found a cheat! retro1 (0x7e32e340,0x37a7146c)
-Took 92.9150 seconds (That's 6.5636 seconds per 1,000 hashes)
+> thu2rcc.exe .\data\complete_hash_list.txt .\data\some_wordlist.txt
+Hash List: .\data\complete_hash_list.txt
+Cheat List: .\data\some_wordlist.txt
+Starting to crack using CUDA GPU acceleration...
+Found a cheat! 5fingers (0xdb562768,0x9899aa08)
+Took 75.5568 seconds (That's 0.0457 seconds per 1,000 hashes)
 ```
 
-*Note that execution time will vary greatly depending on your machine (number of cores, what other processes are running, etc.)*
+*Note: The sample stats shown above are based on running locally on an NVIDIA GeForce GTX 1060. Execution time will vary depending on your GPU architecture and size of the wordlist.*
 
 ## Contributing
 
-I'm very interested to hear if anyone else is able to find further codes that work for the game. If you find more cheats that aren't yet in my table, let me know, and I'll be happy to add them and give you credit for your discovery!
-
-This project was my first attempt at learning and writing Rust. As such, I'm positive that there are improvements that can be made to make my code run faster - I'm super open to feedback and criticism on the code 😊
-
-I'd imagine there's also a GPU accelerated approach to cracking these hashes that could provide a great deal of speedup, but that exceeds my current expertise, so let me know if you have ideas on how a GPU assisted version of this utility might look!
+I'm very interested to hear if anyone else is able to find further codes that work for the game. If you find more cheats that aren't yet in my table, let me know, and I'll be happy to add them and give you credit for your discovery! 😊
