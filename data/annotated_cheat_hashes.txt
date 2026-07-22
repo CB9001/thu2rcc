@@ -112,3 +112,5 @@ gamecube_cheat_reallygivelevels: 0x884164ba,0x639b3804
 gamecube_cheat_give_story_skaters: 0x5f933de3,0xddf4c93d
 gamecube_unlock_all_cheats: 0x00df3fae,0x87486e11
 gamecube_cheat_select_shift: 0xcfeeb506,0xe8d77414
+pc_unlock_PC_secret_character1: 0xc56f465f,0xdc6972d3
+pc_unlock_PC_secret_character2: 0x7dcf65b3,0x450845eb

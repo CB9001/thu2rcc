@@ -16,9 +16,9 @@ To crack these cheat code hashes, I re-implemented the cheat hashing algorithm i
 
 Using this utility, I've managed to discover a number of previously undocumented cheat codes for various versions of Tony Hawk's Underground 2. Any cheats bolded & italicized were previously undocumented (as far as I can tell).
 
-A very special thanks to **[naomshi](https://github.com/naomshi)** and **[moddedBear](https://github.com/moddedBear)** for finding additional codes which have been added to this list 😊
+A very special thanks to **[naomshi](https://github.com/naomshi)**, **[moddedBear](https://github.com/moddedBear)**, **[LudiCruz-Liam](https://github.com/LudiCruz-Liam)**, and **[violetvandal](https://github.com/violetvandal)** for finding additional codes and hashes which have been added to this list 😊
 
-| Cheat                            | PS2             | PSP              | Xbox             | Gamecube        |
+| Cheat                            | PS2             | PSP              | Xbox / PC        | Gamecube        |
 |----------------------------------|-----------------|------------------|------------------|-----------------|
 | Always Special                   | likepaulie      |                  | likepaulie       | likepaulie      |
 | Perfect Rail                     |                 | tightrope        |                  |                 |
@@ -31,7 +31,7 @@ A very special thanks to **[naomshi](https://github.com/naomshi)** and **[modded
 | Unlock Pedestrian Group D        | ***fruitboot*** | ***gumdrops***   | ***fruitboot***  | ***fruitboot*** |
 | Unlock Pedestrian Group E        |                 |                  |                  |                 |
 | Unlock Pedestrian Group F        |                 | ***bratpak***    |                  |                 |
-| Unlock Pedestrian Group G        |                 | ***evenmore***   |                  |                 |
+| Unlock Pedestrian Group G        |                 | ***evenmore***   | ***wdtboys***    |                 |
 | Unlock Pedestrian Group H        |                 |                  |                  |                 |
 | Unlock Shrek                     | ***greenguy***  | ***nevertold***  | ***farfaraway*** | ***greenguy***  |
 | Unlock C.O.D. Soldier            | ***2infinity*** | ***dogtags***    | ***lockstock***  | ***foxhole***   |
@@ -43,6 +43,8 @@ A very special thanks to **[naomshi](https://github.com/naomshi)** and **[modded
 | Unlock Jesse James               |                 |                  | ***payups***     | ***outlaw***    |
 | Unlock THPS1 Tony Hawk           | ***original1*** | birdman          | ***firstborn***  | ***retro1***    |
 | Unlock Natas Kaupas              | oldskool        |                  | bedizzy          | unscrewed       |
+| Unlock Nick Kang (PC Exclusive)  | N/A             | N/A              | ***nicknow***    | N/A             |
+| Unlock Price (PC Exclusive)      | N/A             | N/A              | ***pricenow***   | N/A             |
 | Unlock all Movies                | boxoffice       | ***playbill***   |                  | sikflick        |
 | Unlock all Levels                | d3struct        | ***w0rldt0ur***  |                  | urown3d         |
 | Unlock all Story Mode Characters | costars!        |                  | ***xtrahelp***   | wakpak          |
