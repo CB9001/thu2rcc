@@ -38,45 +38,68 @@ __device__ const uint32_t crc32LookupTable[256] = {
     0xC30C8EA1, 0x5A05DF1B, 0x2D02EF8D
 };
 
-__device__ unsigned int jamcrc32(const char* data, int length) {
+__device__ const char digitPairs[200] = {
+    '0','0','0','1','0','2','0','3','0','4','0','5','0','6','0','7','0','8','0','9',
+    '1','0','1','1','1','2','1','3','1','4','1','5','1','6','1','7','1','8','1','9',
+    '2','0','2','1','2','2','2','3','2','4','2','5','2','6','2','7','2','8','2','9',
+    '3','0','3','1','3','2','3','3','3','4','3','5','3','6','3','7','3','8','3','9',
+    '4','0','4','1','4','2','4','3','4','4','4','5','4','6','4','7','4','8','4','9',
+    '5','0','5','1','5','2','5','3','5','4','5','5','5','6','5','7','5','8','5','9',
+    '6','0','6','1','6','2','6','3','6','4','6','5','6','6','6','7','6','8','6','9',
+    '7','0','7','1','7','2','7','3','7','4','7','5','7','6','7','7','7','8','7','9',
+    '8','0','8','1','8','2','8','3','8','4','8','5','8','6','8','7','8','8','8','9',
+    '9','0','9','1','9','2','9','3','9','4','9','5','9','6','9','7','9','8','9','9'
+};
+
+__device__ unsigned int jamcrc32(const char* data, int length, const uint32_t* table = crc32LookupTable) {
     unsigned int crc = ~0u;
     for (int i = 0; i < length; i++) {
         unsigned char byte = data[i];
         int index = (crc ^ byte) & 0xFF;
-        crc = (crc >> 8) ^ crc32LookupTable[index];
+        crc = (crc >> 8) ^ table[index];
     }
     return crc;
 }
 
-__device__ int int_to_string(int value, char* buffer) {
-    int i = 0;
-    bool is_negative = value < 0;
-    if (is_negative) {
-        value = -value;
+__device__ int int_to_string(int value, char* buffer, int buflen, const char* pairs = digitPairs) {
+    unsigned int uvalue = (value < 0) ? (unsigned int)(-value) : (unsigned int)value;
+    int pos = buflen;
+
+    while (uvalue >= 100) {
+        unsigned int rem = uvalue % 100;
+        uvalue /= 100;
+        pos -= 2;
+        buffer[pos]     = pairs[rem * 2];
+        buffer[pos + 1] = pairs[rem * 2 + 1];
     }
 
-    // Convert integer to string (in reverse order)
-    do {
-        buffer[i++] = (value % 10) + '0';
-        value /= 10;
-    } while (value > 0);
-
-    if (is_negative) {
-        buffer[i++] = '-';
+    if (uvalue < 10) {
+        buffer[--pos] = (char)('0' + uvalue);
+    } else {
+        pos -= 2;
+        buffer[pos]     = pairs[uvalue * 2];
+        buffer[pos + 1] = pairs[uvalue * 2 + 1];
     }
 
-    // Reverse the string
-    for (int j = 0; j < i / 2; j++) {
-        char temp = buffer[j];
-        buffer[j] = buffer[i - j - 1];
-        buffer[i - j - 1] = temp;
+    if (value < 0) {
+        buffer[--pos] = '-';
     }
 
-    buffer[i] = '\0';
-    return i;
+    return pos;
 }
 
 __global__ void calc_hash_kernel(char* cheats, int* offsets, unsigned int* results_c1, unsigned int* results_c2, int num_cheats) {
+    __shared__ uint32_t s_crcTable[256];
+    __shared__ char s_digitPairs[200];
+
+    if (threadIdx.x < 256) {
+        s_crcTable[threadIdx.x] = crc32LookupTable[threadIdx.x];
+    }
+    if (threadIdx.x < 200) {
+        s_digitPairs[threadIdx.x] = digitPairs[threadIdx.x];
+    }
+    __syncthreads();
+
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
 
     if (idx < num_cheats) {
@@ -85,8 +108,11 @@ __global__ void calc_hash_kernel(char* cheats, int* offsets, unsigned int* resul
 
         char obfuscated[20] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0',
                                '1', '2', '3', '4', '5', '6', '7', '8', '9', '0'};
-        int cheat_crc = jamcrc32(cheat_string, cheat_length);
+        int cheat_crc = jamcrc32(cheat_string, cheat_length, s_crcTable);
         unsigned int accumulator = 0;
+
+        const int CRC_STR_BUFLEN = 12;
+        char new_crc_str[CRC_STR_BUFLEN];
 
         for (int i = 0; i < 100000; i++) {
             // Re-uppercase obfuscated cheat string
@@ -97,11 +123,11 @@ __global__ void calc_hash_kernel(char* cheats, int* offsets, unsigned int* resul
             }
 
             int new_crc = cheat_crc + i;
-            char new_crc_str[11];
-            int new_crc_len = int_to_string(new_crc, new_crc_str);
+            int start = int_to_string(new_crc, new_crc_str, CRC_STR_BUFLEN, s_digitPairs);
+            int new_crc_len = CRC_STR_BUFLEN - start;
 
             for (int j = 0; j < new_crc_len; j++) {
-                obfuscated[j] = new_crc_str[j];
+                obfuscated[j] = new_crc_str[start + j];
                 accumulator += obfuscated[j] * 0x3ff;
             }
 
@@ -118,11 +144,11 @@ __global__ void calc_hash_kernel(char* cheats, int* offsets, unsigned int* resul
                 }
             }
 
-            cheat_crc = jamcrc32(obfuscated, 20);
+            cheat_crc = jamcrc32(obfuscated, 20, s_crcTable);
         }
 
-        results_c1[idx] = jamcrc32(&cheat_string[cheat_length / 3], cheat_length - cheat_length / 3) ^ accumulator;
-        results_c2[idx] = jamcrc32(obfuscated, 20) ^ accumulator;
+        results_c1[idx] = jamcrc32(&cheat_string[cheat_length / 3], cheat_length - cheat_length / 3, s_crcTable) ^ accumulator;
+        results_c2[idx] = jamcrc32(obfuscated, 20, s_crcTable) ^ accumulator;
     }
 }
 
