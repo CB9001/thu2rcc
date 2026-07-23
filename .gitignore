@@ -3,6 +3,7 @@
 *.exp
 *.lib
 *.obj
+*.res
 
 # Build directories
 /build/

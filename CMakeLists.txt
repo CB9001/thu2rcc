@@ -9,7 +9,13 @@ project(thu2rcc LANGUAGES CXX CUDA)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CUDA_STANDARD 17)
 
-add_executable(thu2rcc src/cheat_cracker.cu)
+set(SOURCES src/cheat_cracker.cu)
+
+if(WIN32)
+    list(APPEND SOURCES res/resource.rc)
+endif()
+
+add_executable(thu2rcc ${SOURCES})
 
 set_target_properties(thu2rcc PROPERTIES
     CUDA_SEPARABLE_COMPILATION ON

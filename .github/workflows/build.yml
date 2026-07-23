@@ -2,7 +2,7 @@ name: Build Executables
 
 on:
   push:
-    branches: [ "main", "master" ]
+    branches: [ "main" ]
     tags: [ "v*" ]
   pull_request:
     branches: [ "main", "master" ]
@@ -19,24 +19,31 @@ jobs:
           - os: ubuntu-latest
             artifact_name: thu2rcc-linux
             binary_src: build/thu2rcc
-          - os: windows-latest
+          - os: windows-2022
             artifact_name: thu2rcc-windows.exe
-            binary_src: build/Release/thu2rcc.exe
+            binary_src: build/thu2rcc.exe
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup MSVC Environment
+        if: runner.os == 'Windows'
+        uses: ilammy/msvc-dev-cmd@v1
+
       - name: Install CUDA Toolkit
         uses: Jimver/cuda-toolkit@v0.2.35
         with:
-          cuda: '13.2.0'
+          cuda: '12.4.1'
+
+      - name: Log CUDA Version Info
+        run: nvcc --version
 
       - name: Configure CMake
         run: >
-          cmake -B build
+          cmake -G Ninja -B build
           -DCMAKE_BUILD_TYPE=Release
-          -DCMAKE_CUDA_ARCHITECTURES="52;60;61;70;75;80;86;89;90"
+          -DCMAKE_CUDA_ARCHITECTURES="52;60;61;70;75;80;86;89"
 
       - name: Build Executable
         run: cmake --build build --config Release

@@ -39,8 +39,10 @@ if %ERRORLEVEL% NEQ 0 (
     goto :NOT_FOUND
 )
 
+echo Compiling Windows resource file...
+rc.exe /nologo /fo res\resource.res res\resource.rc
 echo Building thu2rcc using nvcc...
-nvcc -O3 src/cheat_cracker.cu -o thu2rcc.exe
+nvcc -O3 src/cheat_cracker.cu res\resource.res -o thu2rcc.exe
 if %ERRORLEVEL% EQU 0 (
     echo Build successful: thu2rcc.exe
 ) else (
