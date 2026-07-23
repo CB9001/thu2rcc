@@ -1,0 +1,354 @@
+Year,Game,Platform,c1,c2,CheatScript Name,CheatString,PublishedCheat
+2001,Tony Hawk's Pro Skater 3,Gamecube,0x3F347923,0x7E12ACC2,unlock_all_cheats,,FALSE
+2001,Tony Hawk's Pro Skater 3,Gamecube,0x5318E289,0xB48F12CC,cheat_give_everything,,FALSE
+2001,Tony Hawk's Pro Skater 3,Gamecube,0x1039AC4D,0xF4CF6E3E,cheat_give_levels,,FALSE
+2001,Tony Hawk's Pro Skater 3,Gamecube,0xD020D4AC,0x2CE11D80,cheat_give_skaters,freakshow,TRUE
+2001,Tony Hawk's Pro Skater 3,Gamecube,0x98BD712B,0x0E2CFFD2,cheat_give_neversoft_skaters,weeatdirt,TRUE
+2001,Tony Hawk's Pro Skater 3,Gamecube,0x4C336F0D,0xFC7EA355,cleargame,,FALSE
+2001,Tony Hawk's Pro Skater 3,Gamecube,0x324B1754,0xBAC1DF50,AllDecks,,FALSE
+2001,Tony Hawk's Pro Skater 3,Gamecube,0x22327814,0x0F8CEF40,AllStats,maxmeout,TRUE
+2001,Tony Hawk's Pro Skater 3,Gamecube,0xBD3B6E27,0x1DA95765,cheat_unlockmovies,popcorn,TRUE
+2001,Tony Hawk's Pro Skater 3,PC/PS2,0x24C8DD2E,0x96514937,unlock_all_cheats,backdoor,TRUE
+2001,Tony Hawk's Pro Skater 3,PC/PS2,0x0E05FD15,0xE2DEFC09,cheat_give_everything,,FALSE
+2001,Tony Hawk's Pro Skater 3,PC/PS2,0x16A22ABE,0x61463EEB,cheat_give_levels,roadtrip,TRUE
+2001,Tony Hawk's Pro Skater 3,PC/PS2,0x71A9ADFE,0x63063591,cheat_give_skaters,yohomies,TRUE
+2001,Tony Hawk's Pro Skater 3,PC/PS2,0x98BD712B,0x0E2CFFD2,cheat_give_neversoft_skaters,weeatdirt,TRUE
+2001,Tony Hawk's Pro Skater 3,PC/PS2,0x60694ED8,0x05069A30,cleargame,,FALSE
+2001,Tony Hawk's Pro Skater 3,PC/PS2,0x094D9645,0x184A851C,AllDecks,,FALSE
+2001,Tony Hawk's Pro Skater 3,PC/PS2,0x26E19F99,0x13EF7525,AllStats,pumpmeup,TRUE
+2001,Tony Hawk's Pro Skater 3,PC/PS2,0x5C86AC96,0xD24A2694,cheat_unlockmovies,peepshow,TRUE
+2001,Tony Hawk's Pro Skater 3,PC/PS2,0x867C713B,0x1B846779,cheat_unlockdoomguy,idkfa,TRUE
+2001,Tony Hawk's Pro Skater 3,Xbox,0xFDBCC9EC,0x683A685B,unlock_all_cheats,time2fly,FALSE
+2001,Tony Hawk's Pro Skater 3,Xbox,0x0AD2F628,0x78C98FEC,cheat_give_everything,,FALSE
+2001,Tony Hawk's Pro Skater 3,Xbox,0x3E9BDF9E,0xBA8B23F6,cheat_give_levels,sk84free,FALSE
+2001,Tony Hawk's Pro Skater 3,Xbox,0x5A7751CE,0x82AB945C,cheat_give_skaters,teamfreak,TRUE
+2001,Tony Hawk's Pro Skater 3,Xbox,0x98BD712B,0x0E2CFFD2,cheat_give_neversoft_skaters,weeatdirt,TRUE
+2001,Tony Hawk's Pro Skater 3,Xbox,0xCC19F4FD,0x87EF30D9,cleargame,stiffcomp,TRUE
+2001,Tony Hawk's Pro Skater 3,Xbox,0xC193921F,0x80800E79,AllDecks,neverboard,TRUE
+2001,Tony Hawk's Pro Skater 3,Xbox,0xDDA87D0B,0xDAA1926E,AllStats,juice4me,TRUE
+2001,Tony Hawk's Pro Skater 3,Xbox,0x93263434,0xAF17253D,cheat_unlockmovies,rollit,TRUE
+2001,Tony Hawk's Pro Skater 3,Xbox,0xA595EA23,0xBAA07D5D,cheat_give_rig,rigitup,FALSE
+2001,Tony Hawk's Pro Skater 3,Xbox,0x403FFDB5,0x81FAD62D,cheat_give_skaterX,bonedout,FALSE
+2002,Tony Hawk's Pro Skater 4,Gamecube,0x4CB3CB0E,0xAA62B12D,unlock_all_cheats,,FALSE
+2002,Tony Hawk's Pro Skater 4,Gamecube,0xF33BE9EF,0xC0E0D356,cheat_unlock_always_special,g0lden,TRUE
+2002,Tony Hawk's Pro Skater 4,Gamecube,0xD7D4992A,0xB9617613,cheat_unlock_perfect_rail,,FALSE
+2002,Tony Hawk's Pro Skater 4,Gamecube,0xE06FB3C1,0xFE3165C7,cheat_unlock_perfect_skitch,,FALSE
+2002,Tony Hawk's Pro Skater 4,Gamecube,0xDBF573E3,0xEB55133E,cheat_unlock_stats_13,,FALSE
+2002,Tony Hawk's Pro Skater 4,Gamecube,0x08EFC128,0x642A07BB,cheat_unlock_perfect_manual,2wheelin,TRUE
+2002,Tony Hawk's Pro Skater 4,Gamecube,0x7A832B5E,0xDDA10DEF,cheat_unlock_moon_grav,giantsteps,TRUE
+2002,Tony Hawk's Pro Skater 4,Gamecube,0xC05115C4,0xBC058EF1,cheat_unlock_matrix,mrandersen,TRUE
+2002,Tony Hawk's Pro Skater 4,Gamecube,0x62881226,0x791826C0,cheat_unlock_inline,,FALSE
+2002,Tony Hawk's Pro Skater 4,Gamecube,0x17E7A46D,0x2D6D08EC,give_50_stat_points,50reps,FALSE
+2002,Tony Hawk's Pro Skater 4,Gamecube,0xC7707244,0xEF588086,cheat_unlockmovies,,FALSE
+2002,Tony Hawk's Pro Skater 4,Gamecube,0x3BA033C5,0x7F08AB9C,unlock_all_cheat_codes,,FALSE
+2002,Tony Hawk's Pro Skater 4,Gamecube,0xC74AB5A0,0x32A5B91C,cheat_give_skaters,,FALSE
+2002,Tony Hawk's Pro Skater 4,Gamecube,0x21FE94E3,0xA79DBCA1,cheat_reallygivelevels,,FALSE
+2002,Tony Hawk's Pro Skater 4,Gamecube,0x29D747EE,0xDCCB6F53,GoPro,,FALSE
+2002,Tony Hawk's Pro Skater 4,Gamecube,0x34A87D61,0xB5C72D11,cheat_give_jenna,(o)(o),TRUE
+2002,Tony Hawk's Pro Skater 4,PS2,0x4CB3CB0E,0xAA62B12D,unlock_all_cheats,,FALSE
+2002,Tony Hawk's Pro Skater 4,PS2,0x02CEF834,0xA4D57214,cheat_unlock_always_special,doasuper,TRUE
+2002,Tony Hawk's Pro Skater 4,PS2,0x3AF4A656,0x7FD17616,cheat_unlock_perfect_rail,ssbsts,TRUE
+2002,Tony Hawk's Pro Skater 4,PS2,0xE547B163,0xCA554446,cheat_unlock_perfect_skitch,,FALSE
+2002,Tony Hawk's Pro Skater 4,PS2,0xFF345333,0x6EDCC759,cheat_unlock_stats_13,4nitwits,FALSE
+2002,Tony Hawk's Pro Skater 4,PS2,0x3BFFCF56,0xF009D288,cheat_unlock_perfect_manual,mullenpower,TRUE
+2002,Tony Hawk's Pro Skater 4,PS2,0xD95A4BCC,0xE85DAA6A,cheat_unlock_moon_grav,superfly,TRUE
+2002,Tony Hawk's Pro Skater 4,PS2,0x461F83F6,0x89C8268D,cheat_unlock_matrix,nospoon,TRUE
+2002,Tony Hawk's Pro Skater 4,PS2,0x62881226,0x791826C0,cheat_unlock_inline,,FALSE
+2002,Tony Hawk's Pro Skater 4,PS2,0xA19AF7D4,0xF2FE172B,give_50_stat_points,,FALSE
+2002,Tony Hawk's Pro Skater 4,PS2,0xFAA3FF52,0x9FA2B309,cheat_unlockmovies,cutcutcut,FALSE
+2002,Tony Hawk's Pro Skater 4,PS2,0x5154A7E1,0x59B52AC3,unlock_all_cheat_codes,,FALSE
+2002,Tony Hawk's Pro Skater 4,PS2,0xF53D53DF,0x90E85800,cheat_give_skaters,homielist,TRUE
+2002,Tony Hawk's Pro Skater 4,PS2,0xCDB5DBAD,0xFCC4B743,cheat_reallygivelevels,,FALSE
+2002,Tony Hawk's Pro Skater 4,PS2,0x29D747EE,0xDCCB6F53,GoPro,,FALSE
+2002,Tony Hawk's Pro Skater 4,PS2,0x34A87D61,0xB5C72D11,cheat_give_jenna,(o)(o),TRUE
+2002,Tony Hawk's Pro Skater 4,Xbox,0x4CB3CB0E,0xAA62B12D,unlock_all_cheats,,FALSE
+2002,Tony Hawk's Pro Skater 4,Xbox,0xB02EEF79,0x148DB8C0,cheat_unlock_always_special,i'myellow,TRUE
+2002,Tony Hawk's Pro Skater 4,Xbox,0xEBFC820D,0x7B2E7138,cheat_unlock_perfect_rail,belikeeric,TRUE
+2002,Tony Hawk's Pro Skater 4,Xbox,0xECD503D0,0x57C0DE2E,cheat_unlock_perfect_skitch,bumperrub,TRUE
+2002,Tony Hawk's Pro Skater 4,Xbox,0xDB39E2DB,0x1A26F106,cheat_unlock_stats_13,4p0sers,TRUE
+2002,Tony Hawk's Pro Skater 4,Xbox,0xFA715011,0x267FFA85,cheat_unlock_perfect_manual,,FALSE
+2002,Tony Hawk's Pro Skater 4,Xbox,0xED8E6542,0xD0AD265B,cheat_unlock_moon_grav,moon$hot,TRUE
+2002,Tony Hawk's Pro Skater 4,Xbox,0x21AD9385,0xF5BE6C50,cheat_unlock_matrix,fbiagent,TRUE
+2002,Tony Hawk's Pro Skater 4,Xbox,0x62881226,0x791826C0,cheat_unlock_inline,,FALSE
+2002,Tony Hawk's Pro Skater 4,Xbox,0x09B1C99F,0xC97EAD41,give_50_stat_points,,FALSE
+2002,Tony Hawk's Pro Skater 4,Xbox,0xE18757D5,0x674461CF,cheat_unlockmovies,,FALSE
+2002,Tony Hawk's Pro Skater 4,Xbox,0x853711BD,0xF7BC09FF,unlock_all_cheat_codes,moronsrus,FALSE
+2002,Tony Hawk's Pro Skater 4,Xbox,0x258BAE0B,0x7A2534C2,cheat_give_skaters,homiesrus,FALSE
+2002,Tony Hawk's Pro Skater 4,Xbox,0x48D3A783,0xEE2E1B89,cheat_reallygivelevels,,FALSE
+2002,Tony Hawk's Pro Skater 4,Xbox,0x29D747EE,0xDCCB6F53,GoPro,,FALSE
+2002,Tony Hawk's Pro Skater 4,Xbox,0x34A87D61,0xB5C72D11,cheat_give_jenna,(o)(o),TRUE
+2003,Tony Hawk's Underground,Gamecube,0x9E86D964,0x218AFADA,cheat_unlock_always_special,superduper,FALSE
+2003,Tony Hawk's Underground,Gamecube,0xF99E2137,0xE59A2F8D,cheat_unlock_perfect_rail,letitslide,TRUE
+2003,Tony Hawk's Underground,Gamecube,0x84B498CC,0x6F3D9741,cheat_unlock_perfect_skitch,rearrider,TRUE
+2003,Tony Hawk's Underground,Gamecube,0xDA901B61,0x75E1254D,cheat_unlock_perfect_manual,,FALSE
+2003,Tony Hawk's Underground,Gamecube,0x82B1AA54,0xE1C2706C,cheat_unlock_moon_grav,getitup,TRUE
+2003,Tony Hawk's Underground,Gamecube,0x524E35D9,0xBF261062,cheat_unlock_pedgroup1,,FALSE
+2003,Tony Hawk's Underground,Gamecube,0xC4B5D992,0xD951C8C2,cheat_unlock_pedgroup2,,FALSE
+2003,Tony Hawk's Underground,Gamecube,0x59966F05,0xCFE9F623,cheat_unlock_pedgroup3,machomen,FALSE
+2003,Tony Hawk's Underground,Gamecube,0xEE6CA9B5,0x6F46CF22,cheat_unlock_pedgroup4,,FALSE
+2003,Tony Hawk's Underground,Gamecube,0xC2BEBF2F,0xE08FCA23,cheat_unlock_pedgroup5,goodolboys,FALSE
+2003,Tony Hawk's Underground,Gamecube,0x17777953,0xFA6A11D5,cheat_unlock_pedgroup6,minwage,FALSE
+2003,Tony Hawk's Underground,Gamecube,0x9AC1A4F5,0x93C1EB20,cheat_unlock_pedgroup7,,FALSE
+2003,Tony Hawk's Underground,Gamecube,0x5F501EE4,0x0C5A7B51,cheat_unlock_pedgroup8,sputnik,FALSE
+2003,Tony Hawk's Underground,Gamecube,0xBFFB415A,0x96D388ED,cheat_unlock_pedgroup9,,FALSE
+2003,Tony Hawk's Underground,Gamecube,0xCFEEB506,0xE8D77414,cheat_select_shift,,FALSE
+2003,Tony Hawk's Underground,Gamecube,0xAD428E60,0x575AAE9E,unlock_all_cheat_codes,,FALSE
+2003,Tony Hawk's Underground,Gamecube,0x841F4641,0xB99CA9CC,unlock_all_sponsors,keepitreal,FALSE
+2003,Tony Hawk's Underground,Gamecube,0x15A7D966,0x22292E40,cheat_unlockmovies,fish-eye,FALSE
+2003,Tony Hawk's Underground,Gamecube,0xD351F327,0x8A60D3F0,unlock_all_cutscenes,,FALSE
+2003,Tony Hawk's Underground,Gamecube,0x70DBFDA8,0x20FA3B83,cheat_reallygivelevels,hacksaw,FALSE
+2003,Tony Hawk's Underground,Gamecube,0xE14DC432,0xEB87114C,cheat_give_im,wongchu,FALSE
+2003,Tony Hawk's Underground,Gamecube,0xDC099837,0xE9C85125,cheat_give_kiss,,FALSE
+2003,Tony Hawk's Underground,Gamecube,0x9EF68E08,0x25A27CC6,cheat_give_thud,nooo!!,TRUE
+2003,Tony Hawk's Underground,Gamecube,0x63D78E87,0xE6B86FBB,unlock_all_cheats,,FALSE
+2003,Tony Hawk's Underground,PS2,0x9E86D964,0x218AFADA,cheat_unlock_always_special,superduper,FALSE
+2003,Tony Hawk's Underground,PS2,0xF99E2137,0xE59A2F8D,cheat_unlock_perfect_rail,letitslide,TRUE
+2003,Tony Hawk's Underground,PS2,0x84B498CC,0x6F3D9741,cheat_unlock_perfect_skitch,rearrider,TRUE
+2003,Tony Hawk's Underground,PS2,0xDA901B61,0x75E1254D,cheat_unlock_perfect_manual,,FALSE
+2003,Tony Hawk's Underground,PS2,0x82B1AA54,0xE1C2706C,cheat_unlock_moon_grav,getitup,TRUE
+2003,Tony Hawk's Underground,PS2,0x524E35D9,0xBF261062,cheat_unlock_pedgroup1,,FALSE
+2003,Tony Hawk's Underground,PS2,0xC4B5D992,0xD951C8C2,cheat_unlock_pedgroup2,,FALSE
+2003,Tony Hawk's Underground,PS2,0x59966F05,0xCFE9F623,cheat_unlock_pedgroup3,machomen,FALSE
+2003,Tony Hawk's Underground,PS2,0xEE6CA9B5,0x6F46CF22,cheat_unlock_pedgroup4,,FALSE
+2003,Tony Hawk's Underground,PS2,0xC2BEBF2F,0xE08FCA23,cheat_unlock_pedgroup5,goodolboys,FALSE
+2003,Tony Hawk's Underground,PS2,0x17777953,0xFA6A11D5,cheat_unlock_pedgroup6,minwage,FALSE
+2003,Tony Hawk's Underground,PS2,0x9AC1A4F5,0x93C1EB20,cheat_unlock_pedgroup7,,FALSE
+2003,Tony Hawk's Underground,PS2,0x5F501EE4,0x0C5A7B51,cheat_unlock_pedgroup8,sputnik,FALSE
+2003,Tony Hawk's Underground,PS2,0xBFFB415A,0x96D388ED,cheat_unlock_pedgroup9,,FALSE
+2003,Tony Hawk's Underground,PS2,0xCFEEB506,0xE8D77414,cheat_select_shift,,FALSE
+2003,Tony Hawk's Underground,PS2,0x0BF831FA,0x4DAA2B03,unlock_all_cheat_codes,,FALSE
+2003,Tony Hawk's Underground,PS2,0xF3F47424,0xB97919F2,unlock_all_sponsors,,FALSE
+2003,Tony Hawk's Underground,PS2,0x5A4B0589,0x42E204D8,cheat_unlockmovies,digivid,TRUE
+2003,Tony Hawk's Underground,PS2,0xCC7336B8,0x5CA71BBB,unlock_all_cutscenes,,FALSE
+2003,Tony Hawk's Underground,PS2,0x74F968DB,0xD86EEEE4,cheat_reallygivelevels,boltcutter,FALSE
+2003,Tony Hawk's Underground,PS2,0x9F5DC26B,0x813FC5C6,cheat_give_im,,FALSE
+2003,Tony Hawk's Underground,PS2,0xD883126B,0xAAEC3415,cheat_give_kiss,,FALSE
+2003,Tony Hawk's Underground,PS2,0x176082A9,0x9984ED54,cheat_give_thud,,FALSE
+2003,Tony Hawk's Underground,PS2,0x385A6243,0x894ABCCF,unlock_all_cheats,,FALSE
+2003,Tony Hawk's Underground,Xbox,0x9E86D964,0x218AFADA,cheat_unlock_always_special,superduper,FALSE
+2003,Tony Hawk's Underground,Xbox,0xF99E2137,0xE59A2F8D,cheat_unlock_perfect_rail,letitslide,TRUE
+2003,Tony Hawk's Underground,Xbox,0x84B498CC,0x6F3D9741,cheat_unlock_perfect_skitch,rearrider,TRUE
+2003,Tony Hawk's Underground,Xbox,0xDA901B61,0x75E1254D,cheat_unlock_perfect_manual,,FALSE
+2003,Tony Hawk's Underground,Xbox,0x82B1AA54,0xE1C2706C,cheat_unlock_moon_grav,getitup,TRUE
+2003,Tony Hawk's Underground,Xbox,0x524E35D9,0xBF261062,cheat_unlock_pedgroup1,,FALSE
+2003,Tony Hawk's Underground,Xbox,0xC4B5D992,0xD951C8C2,cheat_unlock_pedgroup2,,FALSE
+2003,Tony Hawk's Underground,Xbox,0x59966F05,0xCFE9F623,cheat_unlock_pedgroup3,machomen,FALSE
+2003,Tony Hawk's Underground,Xbox,0xEE6CA9B5,0x6F46CF22,cheat_unlock_pedgroup4,,FALSE
+2003,Tony Hawk's Underground,Xbox,0xC2BEBF2F,0xE08FCA23,cheat_unlock_pedgroup5,goodolboys,FALSE
+2003,Tony Hawk's Underground,Xbox,0x17777953,0xFA6A11D5,cheat_unlock_pedgroup6,minwage,FALSE
+2003,Tony Hawk's Underground,Xbox,0x9AC1A4F5,0x93C1EB20,cheat_unlock_pedgroup7,,FALSE
+2003,Tony Hawk's Underground,Xbox,0x5F501EE4,0x0C5A7B51,cheat_unlock_pedgroup8,sputnik,FALSE
+2003,Tony Hawk's Underground,Xbox,0xBFFB415A,0x96D388ED,cheat_unlock_pedgroup9,,FALSE
+2003,Tony Hawk's Underground,Xbox,0xCFEEB506,0xE8D77414,cheat_select_shift,,FALSE
+2003,Tony Hawk's Underground,Xbox,0xB00422BB,0xA9D361C3,unlock_all_cheat_codes,,FALSE
+2003,Tony Hawk's Underground,Xbox,0xF2F93CAB,0xEB376FB4,unlock_all_sponsors,sellout,TRUE
+2003,Tony Hawk's Underground,Xbox,0x831FE9E3,0x8BE7C102,cheat_unlockmovies,super8mm,FALSE
+2003,Tony Hawk's Underground,Xbox,0xF7956636,0xD6781703,unlock_all_cutscenes,,FALSE
+2003,Tony Hawk's Underground,Xbox,0x9190D6F4,0x7136130F,cheat_reallygivelevels,lockpik,FALSE
+2003,Tony Hawk's Underground,Xbox,0xF469A1D7,0xD7AF629C,cheat_give_im,marvelous,FALSE
+2003,Tony Hawk's Underground,Xbox,0x6B46EB0B,0xA47E40A1,cheat_give_kiss,,FALSE
+2003,Tony Hawk's Underground,Xbox,0x5FC01F22,0x772C2F44,cheat_give_thud,argh!!,FALSE
+2003,Tony Hawk's Underground,Xbox,0xC1031CA8,0x6354E25C,unlock_all_cheats,cap&ball,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0x2088E2F1,0x050C9FFD,cheat_unlock_always_special,likepaulie,TRUE
+2004,Tony Hawk's Underground 2,Gamecube,0xDD31AA41,0xB60D06FB,cheat_unlock_perfect_rail,,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0xAFCA5C65,0x29F19BAA,cheat_unlock_perfect_skitch,,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0xB7188105,0x2AA81522,cheat_unlock_perfect_manual,,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0x0348BEBC,0x74BEA191,cheat_unlock_moon_grav,,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0x50242FFA,0xC8BD6DA4,cheat_unlock_pedgroup1,cyberfans,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0x110AC632,0x5F910E9D,cheat_unlock_pedgroup2,,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0xACBED728,0xC007F499,cheat_unlock_pedgroup3,love2hate,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0x95C15165,0xD9CD9403,cheat_unlock_pedgroup4,fruitboot,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0x9B0F07AC,0xF25BD27F,cheat_unlock_pedgroup5,,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0x70B9D3DD,0xCD0EE30D,cheat_unlock_pedgroup6,wdtboys,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0x326B1186,0xDF86FEAF,cheat_unlock_pedgroup7,,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0xFCCCBFD9,0xC5C3D3F1,cheat_unlock_pedgroup8,,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0x0A30EAD7,0xDE404DCC,cheat_give_shrek,greenguy,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0x26B57DB3,0xBE857E2C,cheat_give_soldier,foxhole,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0x07A5CF7D,0x375A1F74,cheat_give_phil,xxlarge,TRUE
+2004,Tony Hawk's Underground 2,Gamecube,0x16A174BA,0x6FC8C1AB,cheat_give_hand,5knuckles,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0xAB4335D0,0x466C97B9,cheat_give_paulie,whoopin,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0x388B53D3,0xC637F6E0,cheat_give_nigel,britteeth,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0xD961FB66,0x0FBD1A6B,cheat_give_steveo,wildman,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0x566799CD,0x6E77E880,cheat_give_jesse,outlaw,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0x7E32E340,0x37A7146C,cheat_give_thps,retro1,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0xEC16EC41,0x23E99C41,cheat_give_natas,unscrewed,TRUE
+2004,Tony Hawk's Underground 2,Gamecube,0x38C53233,0x4B09284C,cheat_unlockmovies,sikflick,TRUE
+2004,Tony Hawk's Underground 2,Gamecube,0x884164BA,0x639B3804,cheat_reallygivelevels,urown3d,TRUE
+2004,Tony Hawk's Underground 2,Gamecube,0x5F933DE3,0xDDF4C93D,cheat_give_story_skaters,wakpak,TRUE
+2004,Tony Hawk's Underground 2,Gamecube,0x00DF3FAE,0x87486E11,unlock_all_cheats,,FALSE
+2004,Tony Hawk's Underground 2,Gamecube,0xCFEEB506,0xE8D77414,cheat_select_shift,,FALSE
+2004,Tony Hawk's Underground 2,PC,0xC56F465F,0xDC6972D3,unlock_PC_secret_character1,nicknow,FALSE
+2004,Tony Hawk's Underground 2,PC,0x7DCF65B3,0x450845EB,unlock_PC_secret_character2,pricenow,FALSE
+2004,Tony Hawk's Underground 2,PS2,0x2088E2F1,0x050C9FFD,cheat_unlock_always_special,likepaulie,TRUE
+2004,Tony Hawk's Underground 2,PS2,0xDD31AA41,0xB60D06FB,cheat_unlock_perfect_rail,,FALSE
+2004,Tony Hawk's Underground 2,PS2,0xAFCA5C65,0x29F19BAA,cheat_unlock_perfect_skitch,,FALSE
+2004,Tony Hawk's Underground 2,PS2,0xB7188105,0x2AA81522,cheat_unlock_perfect_manual,,FALSE
+2004,Tony Hawk's Underground 2,PS2,0x0348BEBC,0x74BEA191,cheat_unlock_moon_grav,,FALSE
+2004,Tony Hawk's Underground 2,PS2,0x50242FFA,0xC8BD6DA4,cheat_unlock_pedgroup1,cyberfans,FALSE
+2004,Tony Hawk's Underground 2,PS2,0x110AC632,0x5F910E9D,cheat_unlock_pedgroup2,,FALSE
+2004,Tony Hawk's Underground 2,PS2,0xACBED728,0xC007F499,cheat_unlock_pedgroup3,love2hate,FALSE
+2004,Tony Hawk's Underground 2,PS2,0x95C15165,0xD9CD9403,cheat_unlock_pedgroup4,fruitboot,FALSE
+2004,Tony Hawk's Underground 2,PS2,0x9B0F07AC,0xF25BD27F,cheat_unlock_pedgroup5,,FALSE
+2004,Tony Hawk's Underground 2,PS2,0x70B9D3DD,0xCD0EE30D,cheat_unlock_pedgroup6,wdtboys,FALSE
+2004,Tony Hawk's Underground 2,PS2,0x326B1186,0xDF86FEAF,cheat_unlock_pedgroup7,,FALSE
+2004,Tony Hawk's Underground 2,PS2,0xFCCCBFD9,0xC5C3D3F1,cheat_unlock_pedgroup8,,FALSE
+2004,Tony Hawk's Underground 2,PS2,0x0A30EAD7,0xDE404DCC,cheat_give_shrek,greenguy,FALSE
+2004,Tony Hawk's Underground 2,PS2,0x5A945246,0x8872946D,cheat_give_soldier,2infinity,FALSE
+2004,Tony Hawk's Underground 2,PS2,0x732BD0C4,0x782C7586,cheat_give_phil,aprilsman,TRUE
+2004,Tony Hawk's Underground 2,PS2,0xDB562768,0x9899AA08,cheat_give_hand,5fingers,FALSE
+2004,Tony Hawk's Underground 2,PS2,0xC166BDE0,0x31478B3C,cheat_give_paulie,mrmouth,FALSE
+2004,Tony Hawk's Underground 2,PS2,0xF2F93CAB,0xEB376FB4,cheat_give_nigel,sellout,TRUE
+2004,Tony Hawk's Underground 2,PS2,0x126A5C61,0x1D01D74F,cheat_give_steveo,,FALSE
+2004,Tony Hawk's Underground 2,PS2,0xB40CA46C,0x0B62342E,cheat_give_jesse,wcchoppers,FALSE
+2004,Tony Hawk's Underground 2,PS2,0x5A7CBE57,0x7B010728,cheat_give_thps,original1,FALSE
+2004,Tony Hawk's Underground 2,PS2,0xCAB054BA,0x33FC7928,cheat_give_natas,oldskool,TRUE
+2004,Tony Hawk's Underground 2,PS2,0x2BA1912E,0x55D2BF2B,cheat_unlockmovies,boxoffice,TRUE
+2004,Tony Hawk's Underground 2,PS2,0xE5E38530,0x0D7B96D5,cheat_reallygivelevels,d3struct,TRUE
+2004,Tony Hawk's Underground 2,PS2,0xCCF43A48,0x656633FC,cheat_give_story_skaters,costars!,TRUE
+2004,Tony Hawk's Underground 2,PS2,0x057356F4,0x17649994,unlock_all_cheats,,FALSE
+2004,Tony Hawk's Underground 2,PS2,0xCFEEB506,0xE8D77414,cheat_select_shift,,FALSE
+2004,Tony Hawk's Underground 2,PS2,0xA7016369,0x465B6CD7,cheat_sce_patchtest,,FALSE
+2004,Tony Hawk's Underground 2,PSP,0x3E807EAB,0x2571576A,cheat_unlock_always_special,,FALSE
+2004,Tony Hawk's Underground 2,PSP,0x97955EDB,0x86E96311,cheat_unlock_perfect_rail,tightrope,TRUE
+2004,Tony Hawk's Underground 2,PSP,0x12174D71,0xE88F869F,cheat_unlock_perfect_skitch,,FALSE
+2004,Tony Hawk's Underground 2,PSP,0x765313C9,0xFE787F99,cheat_unlock_perfect_manual,,FALSE
+2004,Tony Hawk's Underground 2,PSP,0x01FFA35F,0x251FAC16,cheat_unlock_moon_grav,m00nraker,FALSE
+2004,Tony Hawk's Underground 2,PSP,0xE362C8C3,0xC584C7CB,cheat_unlock_pedgroup1,,FALSE
+2004,Tony Hawk's Underground 2,PSP,0xF27F3E55,0x6BE1C8BF,cheat_unlock_pedgroup2,,FALSE
+2004,Tony Hawk's Underground 2,PSP,0x1A7826CD,0xF4A00780,cheat_unlock_pedgroup3,hate2love,FALSE
+2004,Tony Hawk's Underground 2,PSP,0x52544798,0x8424BD0D,cheat_unlock_pedgroup4,gumdrops,FALSE
+2004,Tony Hawk's Underground 2,PSP,0x3E6F3645,0x7E0F5785,cheat_unlock_pedgroup5,,FALSE
+2004,Tony Hawk's Underground 2,PSP,0x2BC6AF0C,0x2A87F17D,cheat_unlock_pedgroup6,bratpak,FALSE
+2004,Tony Hawk's Underground 2,PSP,0x0582F01E,0x07936237,cheat_unlock_pedgroup7,evenmore,FALSE
+2004,Tony Hawk's Underground 2,PSP,0xC9384FB2,0xC3EA1F56,cheat_unlock_pedgroup8,,FALSE
+2004,Tony Hawk's Underground 2,PSP,0x1068A0A1,0x7B87EA79,cheat_give_shrek,nevertold,FALSE
+2004,Tony Hawk's Underground 2,PSP,0xFCA84525,0xCF3D6630,cheat_give_soldier,dogtags,FALSE
+2004,Tony Hawk's Underground 2,PSP,0x705409AE,0xD1EAD314,cheat_give_phil,tirejack,FALSE
+2004,Tony Hawk's Underground 2,PSP,0xBEDB3A1B,0x59921749,cheat_give_hand,hangloose,FALSE
+2004,Tony Hawk's Underground 2,PSP,0x712F8FC7,0xE8190893,cheat_give_paulie,spittle,FALSE
+2004,Tony Hawk's Underground 2,PSP,0xC4F678DE,0xCB1E7A78,cheat_give_nigel,tigerthong,FALSE
+2004,Tony Hawk's Underground 2,PSP,0xB8FC141F,0x269A82E1,cheat_give_steveo,jackazz,FALSE
+2004,Tony Hawk's Underground 2,PSP,0xC052D84F,0x69A34DBC,cheat_give_jesse,mongarage,FALSE
+2004,Tony Hawk's Underground 2,PSP,0x07D8F451,0x0D442A0B,cheat_give_thps,birdman,TRUE
+2004,Tony Hawk's Underground 2,PSP,0x44C3FFC4,0x39C440E9,cheat_give_natas,,FALSE
+2004,Tony Hawk's Underground 2,PSP,0x8264891E,0x12C6A814,cheat_unlockmovies,playbill,FALSE
+2004,Tony Hawk's Underground 2,PSP,0xD1085B7C,0x37CA1F3B,cheat_reallygivelevels,w0rldt0ur,FALSE
+2004,Tony Hawk's Underground 2,PSP,0x1E14699E,0x0AB5307E,cheat_give_story_skaters,,FALSE
+2004,Tony Hawk's Underground 2,PSP,0xB9C394D4,0xD405D2AD,unlock_all_cheats,,FALSE
+2004,Tony Hawk's Underground 2,PSP,0xCFEEB506,0xE8D77414,cheat_select_shift,,FALSE
+2004,Tony Hawk's Underground 2,PSP,0xA7016369,0x465B6CD7,cheat_sce_patchtest,,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0x2088E2F1,0x050C9FFD,cheat_unlock_always_special,likepaulie,TRUE
+2004,Tony Hawk's Underground 2,Xbox,0xDD31AA41,0xB60D06FB,cheat_unlock_perfect_rail,,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0xAFCA5C65,0x29F19BAA,cheat_unlock_perfect_skitch,,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0xB7188105,0x2AA81522,cheat_unlock_perfect_manual,,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0x0348BEBC,0x74BEA191,cheat_unlock_moon_grav,,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0x50242FFA,0xC8BD6DA4,cheat_unlock_pedgroup1,cyberfans,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0x110AC632,0x5F910E9D,cheat_unlock_pedgroup2,,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0xACBED728,0xC007F499,cheat_unlock_pedgroup3,love2hate,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0x95C15165,0xD9CD9403,cheat_unlock_pedgroup4,fruitboot,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0x9B0F07AC,0xF25BD27F,cheat_unlock_pedgroup5,,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0x70B9D3DD,0xCD0EE30D,cheat_unlock_pedgroup6,wdtboys,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0x326B1186,0xDF86FEAF,cheat_unlock_pedgroup7,,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0xFCCCBFD9,0xC5C3D3F1,cheat_unlock_pedgroup8,,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0xEDEF0D7B,0xCC81600B,cheat_give_shrek,farfaraway,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0x3EFB8D8C,0xD459436A,cheat_give_soldier,lockstock,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0x0AEFD740,0x366288A1,cheat_give_phil,notvito,TRUE
+2004,Tony Hawk's Underground 2,Xbox,0xFF006D73,0x1B6EC0EA,cheat_give_hand,dabird,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0xB08B921C,0x51B49436,cheat_give_paulie,4wheeler,TRUE
+2004,Tony Hawk's Underground 2,Xbox,0xD7AD8979,0xFC021690,cheat_give_nigel,skullet,TRUE
+2004,Tony Hawk's Underground 2,Xbox,0x00C16F4B,0xAA6FAE66,cheat_give_steveo,staplegun,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0xDC22EBAB,0xD3276F68,cheat_give_jesse,payups,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0x0A2D3721,0x41161A4E,cheat_give_thps,firstborn,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0x16294F2A,0xA0E0ED1B,cheat_give_natas,bedizzy,TRUE
+2004,Tony Hawk's Underground 2,Xbox,0x1C5357EF,0xB89C6CD2,cheat_unlockmovies,,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0xC6B43A91,0x2AF8A6DE,cheat_reallygivelevels,,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0x25CC7D23,0x9CC8D957,cheat_give_story_skaters,xtrahelp,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0x9024760D,0x7196ADBA,unlock_all_cheats,,FALSE
+2004,Tony Hawk's Underground 2,Xbox,0xCFEEB506,0xE8D77414,cheat_select_shift,,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0x48A2FC67,0xBC3EC18A,cheat_unlock_always_special,uronfire,TRUE
+2005,Tony Hawk's American Wasteland,Gamecube,0x2DD0B7CD,0x9B8B78B2,cheat_unlock_perfect_rail,grindxpert,TRUE
+2005,Tony Hawk's American Wasteland,Gamecube,0xFC2A9272,0x7A80A399,cheat_unlock_perfect_skitch,h!tchar!de,TRUE
+2005,Tony Hawk's American Wasteland,Gamecube,0x5EC37C7B,0x70380C88,cheat_unlock_perfect_manual,2wheels!,TRUE
+2005,Tony Hawk's American Wasteland,Gamecube,0xFCD1B6BF,0xDC5CA8B3,cheat_unlock_moon_grav,2them00n,TRUE
+2005,Tony Hawk's American Wasteland,Gamecube,0x43C9782C,0xE463DAC8,cheat_unlock_pedgroupa,larocks,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0xB7833E56,0x6DE7D70A,cheat_unlock_pedgroupb,cityangels,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0x93E19AAE,0xED205E28,cheat_unlock_pedgroupc,,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0xD71FC86E,0x27E54DC5,cheat_unlock_pedgroupd,lostangels,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0xE3743FB5,0xB1E92D8D,cheat_unlock_robotony,,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0x84373B57,0x12C6CC7A,cheat_unlock_mindy,,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0x7E3C3C16,0x40117DF7,cheat_unlock_liljohn,hip2dhop,TRUE
+2005,Tony Hawk's American Wasteland,Gamecube,0x53555C00,0x3E1DCCB6,cheat_unlock_iggy,,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0xD2E72905,0x9978637E,cheat_unlock_ellis,fact!on,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0x6F9B655F,0x0CF4D79A,cheat_unlock_jimbo,,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0x1E006E43,0x122D1192,cheat_unlock_murphy,,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0x719C6B0E,0x9541156C,cheat_unlock_mega,oilrigger,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0xC74A999E,0x91080AC8,cheat_unlock_billiejoe,gr33nd@y,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0xDABD71B3,0x001B6247,cheat_unlock_boone,faceplant,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0x4A0E4A95,0x3731C068,cheat_unlock_hoffman,,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0xA0323C1F,0xD6E3CDB3,cheat_unlock_careless,,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0x3251F2B5,0x1BE620C7,cheat_unlock_clover,lloydd,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0x99A28C34,0x9ECEA24F,cheat_unlock_butterfinger1,,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0x99A28C34,0x9ECEA24F,cheat_unlock_butterfinger2,,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0x99A28C34,0x9ECEA24F,cheat_unlock_butterfinger3,,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0x62830645,0xF49B4FBC,cheat_unlockmovies,,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0xF7025C3B,0x51D86C01,cheat_reallygivelevels,,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0x9F2B0DFC,0xAA8587CC,unlock_all_cheats,w@stel@nd,FALSE
+2005,Tony Hawk's American Wasteland,Gamecube,0xCFEEB506,0xE8D77414,cheat_select_shift,,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0x48A2FC67,0xBC3EC18A,cheat_unlock_always_special,uronfire,TRUE
+2005,Tony Hawk's American Wasteland,PS2,0x2DD0B7CD,0x9B8B78B2,cheat_unlock_perfect_rail,grindxpert,TRUE
+2005,Tony Hawk's American Wasteland,PS2,0xFC2A9272,0x7A80A399,cheat_unlock_perfect_skitch,h!tchar!de,TRUE
+2005,Tony Hawk's American Wasteland,PS2,0x5EC37C7B,0x70380C88,cheat_unlock_perfect_manual,2wheels!,TRUE
+2005,Tony Hawk's American Wasteland,PS2,0xFCD1B6BF,0xDC5CA8B3,cheat_unlock_moon_grav,2them00n,TRUE
+2005,Tony Hawk's American Wasteland,PS2,0x43C9782C,0xE463DAC8,cheat_unlock_pedgroupa,larocks,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0xB7833E56,0x6DE7D70A,cheat_unlock_pedgroupb,cityangels,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0x93E19AAE,0xED205E28,cheat_unlock_pedgroupc,,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0xD71FC86E,0x27E54DC5,cheat_unlock_pedgroupd,lostangels,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0x83C527CB,0x6F4A91C2,cheat_unlock_robotony,hawk_2020,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0xA85BF14B,0x8EAA6340,cheat_unlock_mindy,,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0x0654D7BF,0x8597F022,cheat_unlock_liljohn,,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0xDCB9110B,0xDB67A3A6,cheat_unlock_iggy,,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0x140BB0AE,0x1C3A574B,cheat_unlock_ellis,sirius-dj,TRUE
+2005,Tony Hawk's American Wasteland,PS2,0xF0207AEE,0xC84D334B,cheat_unlock_jimbo,art!st!c,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0x1E006E43,0x122D1192,cheat_unlock_murphy,,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0x719C6B0E,0x9541156C,cheat_unlock_mega,oilrigger,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0xC74A999E,0x91080AC8,cheat_unlock_billiejoe,gr33nd@y,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0xDABD71B3,0x001B6247,cheat_unlock_boone,faceplant,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0x4A0E4A95,0x3731C068,cheat_unlock_hoffman,,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0xA0323C1F,0xD6E3CDB3,cheat_unlock_careless,,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0x3251F2B5,0x1BE620C7,cheat_unlock_clover,lloydd,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0x99A28C34,0x9ECEA24F,cheat_unlock_butterfinger1,,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0x99A28C34,0x9ECEA24F,cheat_unlock_butterfinger2,,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0x99A28C34,0x9ECEA24F,cheat_unlock_butterfinger3,,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0x978BDF83,0xC88AF276,cheat_unlockmovies,,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0xA0F7B3AF,0xCDD0DF7D,cheat_reallygivelevels,,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0x60FC5A22,0xAEF5B8A1,unlock_all_cheats,,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0xCFEEB506,0xE8D77414,cheat_select_shift,,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0x48A2FC67,0xBC3EC18A,cheat_unlock_always_special,uronfire,TRUE
+2005,Tony Hawk's American Wasteland,Xbox,0x2DD0B7CD,0x9B8B78B2,cheat_unlock_perfect_rail,grindxpert,TRUE
+2005,Tony Hawk's American Wasteland,Xbox,0xFC2A9272,0x7A80A399,cheat_unlock_perfect_skitch,h!tchar!de,TRUE
+2005,Tony Hawk's American Wasteland,Xbox,0x5EC37C7B,0x70380C88,cheat_unlock_perfect_manual,2wheels!,TRUE
+2005,Tony Hawk's American Wasteland,Xbox,0xFCD1B6BF,0xDC5CA8B3,cheat_unlock_moon_grav,2them00n,TRUE
+2005,Tony Hawk's American Wasteland,Xbox,0x43C9782C,0xE463DAC8,cheat_unlock_pedgroupa,larocks,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0xB7833E56,0x6DE7D70A,cheat_unlock_pedgroupb,cityangels,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0x93E19AAE,0xED205E28,cheat_unlock_pedgroupc,,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0xD71FC86E,0x27E54DC5,cheat_unlock_pedgroupd,lostangels,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0xEB504EBB,0x4F610954,cheat_unlock_robotony,futurebird,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0x13BB6E37,0xA7180F6C,cheat_unlock_mindy,,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0x455AAB8E,0x806751BC,cheat_unlock_liljohn,,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0xE21D507C,0x679F5D43,cheat_unlock_iggy,snakepipe,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0xFF4AA104,0x763ED3DE,cheat_unlock_ellis,jayman,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0x3D184444,0xEC86442C,cheat_unlock_jimbo,,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0x1E006E43,0x122D1192,cheat_unlock_murphy,,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0x719C6B0E,0x9541156C,cheat_unlock_mega,oilrigger,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0xC74A999E,0x91080AC8,cheat_unlock_billiejoe,gr33nd@y,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0xDABD71B3,0x001B6247,cheat_unlock_boone,faceplant,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0x4A0E4A95,0x3731C068,cheat_unlock_hoffman,,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0xA0323C1F,0xD6E3CDB3,cheat_unlock_careless,,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0x3251F2B5,0x1BE620C7,cheat_unlock_clover,lloydd,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0x99A28C34,0x9ECEA24F,cheat_unlock_butterfinger1,,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0x99A28C34,0x9ECEA24F,cheat_unlock_butterfinger2,,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0x99A28C34,0x9ECEA24F,cheat_unlock_butterfinger3,,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0x1CDC6EB8,0xD37C4EE0,cheat_unlockmovies,,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0x8C15D8C3,0xF41254F2,cheat_reallygivelevels,takemethere,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0xE852B91C,0xEC9F4BC3,unlock_all_cheats,h@rdc0re,FALSE
+2005,Tony Hawk's American Wasteland,Xbox,0xCFEEB506,0xE8D77414,cheat_select_shift,,FALSE
