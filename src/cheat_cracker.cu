@@ -38,19 +38,6 @@ __device__ const uint32_t crc32LookupTable[256] = {
     0xC30C8EA1, 0x5A05DF1B, 0x2D02EF8D
 };
 
-__device__ const char digitPairs[200] = {
-    '0','0','0','1','0','2','0','3','0','4','0','5','0','6','0','7','0','8','0','9',
-    '1','0','1','1','1','2','1','3','1','4','1','5','1','6','1','7','1','8','1','9',
-    '2','0','2','1','2','2','2','3','2','4','2','5','2','6','2','7','2','8','2','9',
-    '3','0','3','1','3','2','3','3','3','4','3','5','3','6','3','7','3','8','3','9',
-    '4','0','4','1','4','2','4','3','4','4','4','5','4','6','4','7','4','8','4','9',
-    '5','0','5','1','5','2','5','3','5','4','5','5','5','6','5','7','5','8','5','9',
-    '6','0','6','1','6','2','6','3','6','4','6','5','6','6','6','7','6','8','6','9',
-    '7','0','7','1','7','2','7','3','7','4','7','5','7','6','7','7','7','8','7','9',
-    '8','0','8','1','8','2','8','3','8','4','8','5','8','6','8','7','8','8','8','9',
-    '9','0','9','1','9','2','9','3','9','4','9','5','9','6','9','7','9','8','9','9'
-};
-
 __device__ unsigned int jamcrc32(const char* data, int length, const uint32_t* table = crc32LookupTable) {
     unsigned int crc = ~0u;
     for (int i = 0; i < length; i++) {
@@ -61,95 +48,76 @@ __device__ unsigned int jamcrc32(const char* data, int length, const uint32_t* t
     return crc;
 }
 
-__device__ int int_to_string(int value, char* buffer, int buflen, const char* pairs = digitPairs) {
-    unsigned int uvalue = (value < 0) ? (unsigned int)(-value) : (unsigned int)value;
-    int pos = buflen;
-
-    while (uvalue >= 100) {
-        unsigned int rem = uvalue % 100;
-        uvalue /= 100;
-        pos -= 2;
-        buffer[pos]     = pairs[rem * 2];
-        buffer[pos + 1] = pairs[rem * 2 + 1];
+#define THU2RCC_PLACE_DIGITS(ob, off, d, q0,q1,q2,q3,q4,q5,q6,q7,q8,q9)                                   \
+    switch (d) {                                                                                          \
+        case 1:  ob[off+0]=q0; ob[off+1]='x'; break;                                                      \
+        case 2:  ob[off+0]=q1; ob[off+1]=q0; ob[off+2]='x'; break;                                        \
+        case 3:  ob[off+0]=q2; ob[off+1]=q1; ob[off+2]=q0; ob[off+3]='x'; break;                          \
+        case 4:  ob[off+0]=q3; ob[off+1]=q2; ob[off+2]=q1; ob[off+3]=q0; ob[off+4]='x'; break;            \
+        case 5:  ob[off+0]=q4; ob[off+1]=q3; ob[off+2]=q2; ob[off+3]=q1; ob[off+4]=q0; ob[off+5]='x'; break; \
+        case 6:  ob[off+0]=q5; ob[off+1]=q4; ob[off+2]=q3; ob[off+3]=q2; ob[off+4]=q1; ob[off+5]=q0; ob[off+6]='x'; break; \
+        case 7:  ob[off+0]=q6; ob[off+1]=q5; ob[off+2]=q4; ob[off+3]=q3; ob[off+4]=q2; ob[off+5]=q1; ob[off+6]=q0; ob[off+7]='x'; break; \
+        case 8:  ob[off+0]=q7; ob[off+1]=q6; ob[off+2]=q5; ob[off+3]=q4; ob[off+4]=q3; ob[off+5]=q2; ob[off+6]=q1; ob[off+7]=q0; ob[off+8]='x'; break; \
+        case 9:  ob[off+0]=q8; ob[off+1]=q7; ob[off+2]=q6; ob[off+3]=q5; ob[off+4]=q4; ob[off+5]=q3; ob[off+6]=q2; ob[off+7]=q1; ob[off+8]=q0; ob[off+9]='x'; break; \
+        default: ob[off+0]=q9; ob[off+1]=q8; ob[off+2]=q7; ob[off+3]=q6; ob[off+4]=q5; ob[off+5]=q4; ob[off+6]=q3; ob[off+7]=q2; ob[off+8]=q1; ob[off+9]=q0; ob[off+10]='x'; break; \
     }
-
-    if (uvalue < 10) {
-        buffer[--pos] = (char)('0' + uvalue);
-    } else {
-        pos -= 2;
-        buffer[pos]     = pairs[uvalue * 2];
-        buffer[pos + 1] = pairs[uvalue * 2 + 1];
-    }
-
-    if (value < 0) {
-        buffer[--pos] = '-';
-    }
-
-    return pos;
-}
 
 __global__ void calc_hash_kernel(char* cheats, int* offsets, unsigned int* results_c1, unsigned int* results_c2, int num_cheats) {
     __shared__ uint32_t s_crcTable[256];
-    __shared__ char s_digitPairs[200];
-
     if (threadIdx.x < 256) {
         s_crcTable[threadIdx.x] = crc32LookupTable[threadIdx.x];
-    }
-    if (threadIdx.x < 200) {
-        s_digitPairs[threadIdx.x] = digitPairs[threadIdx.x];
     }
     __syncthreads();
 
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
+    if (idx >= num_cheats) return;
 
-    if (idx < num_cheats) {
-        char* cheat_string = &cheats[offsets[idx]];
-        int cheat_length = offsets[idx + 1] - offsets[idx];
+    char* cheat_string = &cheats[offsets[idx]];
+    int cheat_length = offsets[idx + 1] - offsets[idx];
 
-        char obfuscated[20] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0',
-                               '1', '2', '3', '4', '5', '6', '7', '8', '9', '0'};
-        int cheat_crc = jamcrc32(cheat_string, cheat_length, s_crcTable);
-        unsigned int accumulator = 0;
+    char obfuscated[20] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0',
+                           '1', '2', '3', '4', '5', '6', '7', '8', '9', '0'};
+    int cheat_crc = jamcrc32(cheat_string, cheat_length, s_crcTable);
+    unsigned int accumulator = 0;
 
-        const int CRC_STR_BUFLEN = 12;
-        char new_crc_str[CRC_STR_BUFLEN];
-
-        for (int i = 0; i < 100000; i++) {
-            // Re-uppercase obfuscated cheat string
-            for (int c = 0; c < 20; c++) {
-                if (obfuscated[c] == 'x') {
-                    obfuscated[c] = 'X';
-                }
-            }
-
-            int new_crc = cheat_crc + i;
-            int start = int_to_string(new_crc, new_crc_str, CRC_STR_BUFLEN, s_digitPairs);
-            int new_crc_len = CRC_STR_BUFLEN - start;
-
-            for (int j = 0; j < new_crc_len; j++) {
-                obfuscated[j] = new_crc_str[start + j];
-                accumulator += obfuscated[j] * 0x3ff;
-            }
-
-            obfuscated[new_crc_len] = 'X';
-
-            for (int j = new_crc_len; j < 20; j++) {
-                accumulator += obfuscated[j] * 0x3ff;
-            }
-
-            // Lowercase obfuscated cheat string before hash is computed
-            for (int c = new_crc_len; c < 20; c++) {
-                if (obfuscated[c] == 'X') {
-                    obfuscated[c] = 'x';
-                }
-            }
-
-            cheat_crc = jamcrc32(obfuscated, 20, s_crcTable);
+    for (int i = 0; i < 100000; i++) {
+        int new_crc = cheat_crc + i;
+        unsigned int u = (new_crc < 0) ? (unsigned int)(-new_crc) : (unsigned int)new_crc;
+        int d = (u >= 1000000000u) ? 10 : (u >= 100000000u) ? 9 : (u >= 10000000u) ? 8
+              : (u >= 1000000u) ? 7 : (u >= 100000u) ? 6 : (u >= 10000u) ? 5
+              : (u >= 1000u) ? 4 : (u >= 100u) ? 3 : (u >= 10u) ? 2 : 1;
+        unsigned int t = u;
+        char q0 = '0' + (char)(t % 10); t /= 10;
+        char q1 = '0' + (char)(t % 10); t /= 10;
+        char q2 = '0' + (char)(t % 10); t /= 10;
+        char q3 = '0' + (char)(t % 10); t /= 10;
+        char q4 = '0' + (char)(t % 10); t /= 10;
+        char q5 = '0' + (char)(t % 10); t /= 10;
+        char q6 = '0' + (char)(t % 10); t /= 10;
+        char q7 = '0' + (char)(t % 10); t /= 10;
+        char q8 = '0' + (char)(t % 10); t /= 10;
+        char q9 = '0' + (char)(t % 10);
+        if (new_crc < 0) {
+            obfuscated[0] = '-';
+            THU2RCC_PLACE_DIGITS(obfuscated, 1, d, q0,q1,q2,q3,q4,q5,q6,q7,q8,q9);
+        } else {
+            THU2RCC_PLACE_DIGITS(obfuscated, 0, d, q0,q1,q2,q3,q4,q5,q6,q7,q8,q9);
         }
 
-        results_c1[idx] = jamcrc32(&cheat_string[cheat_length / 3], cheat_length - cheat_length / 3, s_crcTable) ^ accumulator;
-        results_c2[idx] = jamcrc32(obfuscated, 20, s_crcTable) ^ accumulator;
+        unsigned int rowsum = 0;
+        unsigned int crc = ~0u;
+        #pragma unroll
+        for (int k = 0; k < 20; k++) {
+            unsigned char c = (unsigned char)obfuscated[k];
+            rowsum += c - (c >= 'a' ? 32u : 0u);
+            crc = (crc >> 8) ^ s_crcTable[(crc ^ c) & 0xFF];
+        }
+        accumulator += 0x3ff * rowsum;
+        cheat_crc = (int)crc;
     }
+
+    results_c1[idx] = jamcrc32(&cheat_string[cheat_length / 3], cheat_length - cheat_length / 3, s_crcTable) ^ accumulator;
+    results_c2[idx] = jamcrc32(obfuscated, 20, s_crcTable) ^ accumulator;
 }
 
 void crack_hashes(const std::vector<std::string>& cheats, const std::unordered_set<std::string>& hash_set) {
