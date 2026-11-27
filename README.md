@@ -143,7 +143,7 @@ A very special thanks to **[naomshi](https://github.com/naomshi)**, **[moddedBea
 | cheat_unlock_robotony       | 🟢 hawk_2020  | 🟢 futurebird  |              |
 | cheat_unlock_mindy          |              |               |              |
 | cheat_unlock_liljohn        |              |               | hip2dhop     |
-| cheat_unlock_iggy           |              | 🟢 snakepipe   |              |
+| cheat_unlock_iggy           | 🟢d0wn-l0w   | 🟢 snakepipe   |              |
 | cheat_unlock_ellis          | sirius-dj    | 🟢 jayman      | 🟢 fact!on    |
 | cheat_unlock_jimbo          | 🟢 art!st!c   |               |              |
 | cheat_unlock_murphy         |              |               |              |
