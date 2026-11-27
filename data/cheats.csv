@@ -306,7 +306,7 @@ Year,Game,Platform,c1,c2,CheatScript Name,CheatString,PublishedCheat
 2005,Tony Hawk's American Wasteland,PS2,0x83C527CB,0x6F4A91C2,cheat_unlock_robotony,hawk_2020,FALSE
 2005,Tony Hawk's American Wasteland,PS2,0xA85BF14B,0x8EAA6340,cheat_unlock_mindy,,FALSE
 2005,Tony Hawk's American Wasteland,PS2,0x0654D7BF,0x8597F022,cheat_unlock_liljohn,,FALSE
-2005,Tony Hawk's American Wasteland,PS2,0xDCB9110B,0xDB67A3A6,cheat_unlock_iggy,,FALSE
+2005,Tony Hawk's American Wasteland,PS2,0xDCB9110B,0xDB67A3A6,cheat_unlock_iggy,d0wn-l0w,FALSE
 2005,Tony Hawk's American Wasteland,PS2,0x140BB0AE,0x1C3A574B,cheat_unlock_ellis,sirius-dj,TRUE
 2005,Tony Hawk's American Wasteland,PS2,0xF0207AEE,0xC84D334B,cheat_unlock_jimbo,art!st!c,FALSE
 2005,Tony Hawk's American Wasteland,PS2,0x1E006E43,0x122D1192,cheat_unlock_murphy,,FALSE
